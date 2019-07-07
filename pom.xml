@@ -76,8 +76,8 @@
 <distributionManagement>
     <repository>
       <id>deployment</id>
-      <name>release</name>
-      <url>http://localhost:8081/repository/mavenupload_release/</url>
+      <name>snapshot</name>
+      <url>http://localhost:8081/repository/sample-snapshot-release/</url>
     </repository>
 	  
 	</distributionManagement>
