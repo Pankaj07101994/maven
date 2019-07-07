@@ -66,10 +66,10 @@
       <name>snapshot</name>
       <url>http://localhost:8081/repository/mavenupload/</url>
     </repository>
-	<repository>
-      <id>deployment_1</id>
+	<release_repository>
+      <id>deployment</id>
       <name>release</name>
       <url>http://localhost:8081/repository/maven_jenkins/</url>
-    </repository>
+    </release_repository>
 	</distributionManagement>
 </project>
