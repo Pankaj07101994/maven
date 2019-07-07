@@ -58,7 +58,9 @@
                 </executions>
       </plugin>
     </plugins>
-	<distributionManagement>
+	
+  </build>
+<distributionManagement>
     <repository>
       <id>deployment</id>
       <name>release</name>
@@ -70,6 +72,4 @@
       <url>http://localhost:8081/repository/mavenupload/</url>
     </repository>
 	</distributionManagement>
-  </build>
-
 </project>
