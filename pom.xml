@@ -58,6 +58,18 @@
                 </executions>
       </plugin>
     </plugins>
+	<distributionManagement>
+    <repository>
+      <id>deployment</id>
+      <name>release</name>
+      <url>http://localhost:8081/repository/mavenupload_release/</url>
+    </repository>
+	   <repository>
+      <id>deployment</id>
+      <name>snapshot</name>
+      <url>http://localhost:8081/repository/mavenupload/</url>
+    </repository>
+	</distributionManagement>
   </build>
 
 </project>
